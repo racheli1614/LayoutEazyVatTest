@@ -1,0 +1,15 @@
+.top-menu{
+  display: flex;
+  flex-direction:column ;
+  justify-content: flex-end;
+}
+.bottom-menu{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+ 
+}
+.item{
+  align-self:flex-end;
+
+}

@@ -1,0 +1,51 @@
+<!-- <div class="row sideNav">
+<img  src="../../assets/elements/elements-hamburger@2x.png" (click)="openTopMenu = true"  class="ElementsHamburger" routerLink="">
+</div>
+
+<div class="Rectangle" *ngIf="openTopMenu==true">
+<div class=" row wrapper">
+ <div class="d-md-inline-flex col-sm-1">
+  <img  src="../../assets/elements/elements-close@2x.png" (click)="openTopMenu = false" class="ElementsClose" [routerLink]="">
+ </div>
+ <div  class="d-md-inline-flex col-sm-1">
+  <img  src="../../assets/elements/elements-flag-english@2x.png"  class="ElementsFlag-English"  [routerLink]="">
+  <span  [routerLinkActive]="['active']" class="English">English</span>
+ </div>
+ <div  class="d-md-inline-flex col-sm-1">
+  <img  src="../../assets/elements/elements-flag-china@2x.png" class="ElementsFlag-China"  [routerLink]="">
+  <span [routerLinkActive]="['active']" class="China">China</span>
+ </div>
+ <div  class="d-md-inline-flex col-sm-1">
+  <img  src="../../assets/elements/elements-flag-france@2x.png"   class="ElementsFlag-France" [routerLink]="">
+  <span  [routerLinkActive]="['active']" class="franais">Russian</span>
+ </div>
+</div>
+</div> -->
+
+<div class="row sideNav">
+    <img  src="../../assets/elements/elements-hamburger@2x.png" (click)="openTopMenu = true"  class="ElementsHamburger" routerLink="">    
+   
+    <div class="Rectangle row wrapper" *ngIf="openTopMenu==true">
+     <div class="d-md-inline-flex col-sm-1 right">
+      <img  src="../../assets/elements/elements-close@2x.png" (click)="openTopMenu = false" class="ElementsClose" [routerLink]="">
+     </div>
+     <div  class="d-md-inline-flex col-sm-1">
+      <img  src="../../assets/elements/elements-flag-english@2x.png"  class="ElementsFlag-English"  [routerLink]="">
+      <span  [routerLinkActive]="['active']" class="English">English</span>
+     </div>
+     <div  class="d-md-inline-flex col-sm-1">
+      <img  src="../../assets/elements/elements-flag-china@2x.png" class="ElementsFlag-China"  [routerLink]="">
+      <span [routerLinkActive]="['active']" class="China">China</span>
+     </div>
+     <div  class="d-md-inline-flex col-sm-1">
+      <img  src="../../assets/elements/elements-flag-france@2x.png"   class="ElementsFlag-France" [routerLink]="">
+      <span  [routerLinkActive]="['active']" class="franais">Russian</span>
+     </div>
+    </div>
+
+</div>
+
+
+
+
+

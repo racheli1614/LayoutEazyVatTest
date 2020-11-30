@@ -1,0 +1,110 @@
+.right{
+  text-align: right
+}
+
+.sideNav{
+  display: flex;
+  flex-direction:column ;
+  justify-content: flex-end;
+  align-items:flex-end;
+
+}
+.wrapper{
+  display: flex;
+  flex-direction:column ;
+  justify-content: space-between;
+ 
+}
+
+
+.ElementsHamburger {
+    width: 22px;
+    height: 15px;
+    margin: 0 22px 14px 183px;
+    object-fit: contain;
+  }
+  
+  .Rectangle{
+    width: 121px;
+    height: 153px;
+    margin: 0 10px 445px 244px;
+    padding: 19px 14px 14px 16px;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px 0 rgba(106, 114, 124, 0.22);
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+   
+  
+  }
+  
+
+._03-Languages-menu {
+  width: 375px;
+  height: 667px;
+}
+  .ElementsClose {
+    width: 17px;
+    height: 17px;
+    margin: 0 0 11px 1px;
+    object-fit: contain;
+  }
+
+  .ElementsFlag-English {
+    width: 23px;
+    height: 24px;
+    margin: 2px 0 0 1px;
+    object-fit: contain;
+  }
+  .English {
+    width: 42px;
+    height: 20px;
+    margin: 0 0 0 8px;
+    font-family: Barlow;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: 0.37px;
+    color: #4c6cac;
+  }
+  .ElementsFlag-China {
+  
+    width: 23px;
+    height: 24px;
+    margin: 2px 0 0 1px;
+    object-fit: contain;
+  }
+  .China {
+    width: 25px;
+    height: 20px;
+    margin: 0 0 0 8px;
+    font-family: PingFangSC;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: 0.37px;
+    color: #3562fe;
+  }
+  .ElementsFlag-France {
+    width: 23px;
+    height: 24px;
+    margin: 2px 0 0 1px;
+    object-fit: contain;
+  }
+  .franais {
+    width: 46px;
+    height: 20px;
+    margin: 0 0 0 8px;
+    font-family: Barlow;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: 0.37px;
+    color: #3562fe;
+  }

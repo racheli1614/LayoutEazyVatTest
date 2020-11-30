@@ -1,0 +1,114 @@
+.wrapper{
+  display: flex;
+  justify-content: space-between; 
+}
+
+.col{
+ 
+  width: 100px;
+  height: 100px;
+/*   background: linear-gradient(-45deg, #788cff, #b4c8ff); */
+  
+}
+
+.IconsHome-Fill {
+
+  width: 29px;
+  height: 26px;
+  margin: 0 44px 1px 2px;
+  object-fit: contain;
+}
+.Home {
+  width: 33px;
+  height: 20px;
+  margin: 1px 42px 0 3px;
+  font-family: Barlow;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: 0.37px;
+  text-align: center;
+  color: #18206c;
+}
+.IconsMy-refunds {
+ /*  width: 23px;
+  height: 20px;
+  margin: 3px 59px 4px 64px;
+  object-fit: contain; */
+
+  width: 22px;
+  height: 26px;
+  margin: 0 67px 1px 46px;
+  object-fit: contain;
+}
+
+.My-Refunds {
+ width: 67px;
+  height: 20px;
+  margin: 1px 37px 0 25px;
+  font-family: Barlow;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: 0.37px;
+  text-align: center;
+  color: #18206c; 
+
+/*   width: 40px;
+  height: 20px;
+  margin: 1px 58px 0 37px;
+  font-family: Barlow;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: 0.37px;
+  text-align: center;
+  color: #18206c; */
+
+}
+.IconsProfile {
+  width: 22px;
+  height: 26px;
+  margin: 0 67px 1px 46px;
+  object-fit: contain;
+}
+.Profile {
+  width: 40px;
+  height: 20px;
+  margin: 1px 58px 0 40px;
+  font-family: Barlow;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: 0.37px;
+  text-align: center;
+  color: #18206c;
+}
+.IconsMore {
+  width: 25px;
+  height: 25px;
+  margin: 1px 1px 1px 70px;
+  object-fit: contain;
+}
+.More {
+  width: 28px;
+  height: 20px;
+  margin: 1px 0 0 70px;
+  font-family: Barlow;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: 0.37px;
+  text-align: center;
+  color: #18206c;
+}
